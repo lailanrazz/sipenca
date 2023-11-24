@@ -1,0 +1,38 @@
+.edit {
+    width: auto;
+}
+
+form {
+    width: 250px;
+    margin: auto;
+}
+
+form label {
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 5px;
+}
+
+input {
+	width: 100%;
+	margin: 2px;
+	border: none;
+	outline: none;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+#submit-btn {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #db4766;
+}
