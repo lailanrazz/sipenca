@@ -25,14 +25,22 @@ SIPENCA adalah platform inovatif yang bertujuan memfasilitasi pelestarian dan ek
 **Tangkapan Layar Komponen Penting Produk**
 
 1. Tampilan Beranda
-   <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/a825c339-6428-4b65-8f8d-937d1ff7a299">
-   <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/759a56f4-da9c-47b2-85c2-9e5d04abbf04">
+   <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/c51ccf0f-a977-4164-a214-e336c91579aa">
+
+  <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/60e27b2a-9fc4-45be-a018-5c51fe406d22">
+
 2. Tampilan Tentang
    <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/d06fb89c-36b3-4805-acc9-669bfdda8705">
 3. Tampilan Peta
    <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/fb388d16-3048-48e1-a614-fff40c83c4ae">
    <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/18ec3a49-0050-4613-bb5e-328ad6115660">
-4. Halaman Login Administrator
+4. Halaman Cek Data
+   <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/fd3ef83d-3679-42fc-8458-3a23d10190f8">
+
+6. Halaman Input Data
+   <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/98229a48-f337-405c-b2be-6d9ffead2bac">
+
+8. Halaman Login Administrator
    <img width="960" alt="image" src="https://github.com/lailanrazz/webgis-sipenca/assets/112270824/5741c110-81e3-438c-9104-022fc30e6988">
 
 
