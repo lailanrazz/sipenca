@@ -5,7 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Cagar Budaya Kabupaten Sleman</title>
-    <link rel="icon" href="http://luk.staff.ugm.ac.id/logo/UGM/Resmi/Warna.gif" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/style4.css" />
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+<link rel="icon" href="http://luk.staff.ugm.ac.id/logo/UGM/Resmi/Warna.gif" type="image/x-icon">
     <style>
         body {
             background-color: #f5deb3; /* Cream background color */
@@ -58,13 +69,29 @@
         tr:hover {
             background-color: #fff; /* Plum background color on hover */
         }
+        
     </style>
 </head>
 
 <body>
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content clearfix"> 
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+		 <li><a href="index.html">Kembali Ke Beranda</a></li>
+		  <li><a href="#intro"></a></li>
+      <li><a href=web2.php></a></li> 
+      <li><a href=index.php></a></li>  
+      <li><a href=input.php></a></li>  
+          <li><a href="login.php"></a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
     <div id="content-container">
         <div id="title-container">
-            <h1 style="color: #8b4513;">Data Cagar Budaya Kabupaten Sleman</h1>
+            <h4 style="color: #8b4513;">Data Cagar Budaya Kabupaten Sleman</h4>
         </div>
     <?php
     $servername = "localhost";

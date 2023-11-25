@@ -141,6 +141,16 @@ title.update = function () {
     this._div.innerHTML = '<h2>PERSEBARAN LOKASI CAGAR BUDAYA KABUPATEN SLEMAN</h2> SIPENCA';
 };
 title.addTo(map);
+ 
+var homeButton = L.control({ position: 'bottomleft' });
+homeButton.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info custom-info');
+    div.innerHTML = '<button onclick="window.location.href=\'index.html\'">Kembali Ke Beranda</button>';
+    div.style.backgroundColor = 'white'; // Set the background color to brown
+    return div;
+};
+homeButton.addTo(map);
+
 
 
 
