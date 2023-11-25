@@ -19,19 +19,19 @@
 <link rel="icon" href="http://luk.staff.ugm.ac.id/logo/UGM/Resmi/Warna.gif" type="image/x-icon">
     <style>
         body {
-            background-color: #f5deb3; /* Cream background color */
-            color: #8b4513; /* Brown text color */
+            background-color: #f5deb3; 
+            color: #8b4513; 
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 20px 0; /* Added top and bottom margins */
+            margin: 20px 0; 
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column; /* Added to arrange content vertically */
+            flex-direction: column; 
         }
 
         #title-container {
-            margin-bottom: 20px; /* Added margin to separate title from the table */
+            margin-bottom: 20px; 
         }
 
         #content-container {
@@ -48,26 +48,26 @@
 
         th,
         td {
-            border: 1px solid #8b4513; /* Brown border color */
+            border: 1px solid #8b4513; 
             padding: 8px;
             text-align: left;
         }
 
         th {
-            background-color: #8b4513; /* Deep sky blue header background color */
-            color: #fff; /* White text color */
+            background-color: #8b4513; 
+            color: #fff; 
         }
 
         tr:nth-child(even) {
-            background-color: #f5deb3; /* Cream background color for even rows */
+            background-color: #f5deb3; 
         }
 
         tr:nth-child(odd) {
-            background-color: #f5deb3; /* Cream background color for odd rows */
+            background-color: #f5deb3; 
         }
 
         tr:hover {
-            background-color: #fff; /* Plum background color on hover */
+            background-color: #fff;
         }
         
     </style>
@@ -93,6 +93,7 @@
         <div id="title-container">
             <h4 style="color: #8b4513;">Data Cagar Budaya Kabupaten Sleman</h4>
         </div>
+        
     <?php
     $servername = "localhost";
     $username = "root";

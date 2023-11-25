@@ -21,7 +21,7 @@ if (isset($_POST['login'])) {
         $q1 = mysqli_query($koneksi, $sql1);
         $r1 = mysqli_fetch_array($q1);
 
-        // Periksa apakah username dan password sesuai
+    
         if ($r1['username'] == 'lailanrazz' && $r1['password'] == md5('lela')) {
             $_SESSION['admin_username'] = $username;
             header("location:web2.php");

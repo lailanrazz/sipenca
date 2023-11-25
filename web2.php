@@ -142,11 +142,11 @@ title.update = function () {
 };
 title.addTo(map);
  
-var homeButton = L.control({ position: 'bottomleft' });
+var homeButton = L.control({ position: 'topright' });
 homeButton.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info custom-info');
     div.innerHTML = '<button onclick="window.location.href=\'index.html\'">Kembali Ke Beranda</button>';
-    div.style.backgroundColor = 'white'; // Set the background color to brown
+    div.style.backgroundColor = 'white'; 
     return div;
 };
 homeButton.addTo(map);

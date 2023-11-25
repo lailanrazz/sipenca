@@ -20,9 +20,7 @@
     <style>
         body {
             background-color: #f5deb3;
-            /* Cream background color */
             color: #8b4513;
-            /* Brown text color */
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
@@ -115,7 +113,6 @@
 
         <?php
         if (isset($_POST['submit'])) {
-            // Your existing PHP code for form submission and database insertion
         }
         ?>
     </div>
